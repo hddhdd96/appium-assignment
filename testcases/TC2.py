@@ -30,7 +30,7 @@ def driver():
     driver.quit()
 
 def test_instagram_login(driver):
-    # Start screen recording
+    #녹화 시작
     driver.start_recording_screen()
 
     profile_page = ProfilePage(driver)
